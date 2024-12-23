@@ -1,19 +1,20 @@
-import { useState } from 'react'
-import "./App.css"
-import 'bootstrap/dist/css/bootstrap.min.css';
-import Footer from './Components/Footer';
-import Section01 from './Components/Section01';
+import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min.js";
+
+import Navbar from "./Components/Navbar";
+import Section01 from "./Components/Section01";
+import Section02 from "./Components/Section02";
 function App() {
-
-
   return (
     <>
-      <div> 
-        <Footer/>
-        <Section01/>
+      <div>
+        <Navbar />
+        <Section01 />
+        <Section02 />
       </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
