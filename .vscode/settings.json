@@ -1,6 +1,0 @@
-{
-  "liveServer.settings.AdvanceCustomBrowserCmdLine": "",
-  "editor.defaultFormatter": "esbenp.prettier-vscode", // Define Prettier como formatador padrão
-  "editor.formatOnSave": true, // Formata automaticamente ao salvar
-  "prettier.semi": true // Adiciona ponto e vírgula
-}

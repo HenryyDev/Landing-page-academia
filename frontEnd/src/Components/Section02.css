@@ -1,25 +1,10 @@
 .card {
   width: 300px;
-  transition: background-color 0.3s, transform 0.3s;
+  transition: all 0.7s ease-out; /
 }
 
-.active-card {
-  background-color: #007bff;
-  color: white;
-  transition: background-color 0.4s
-}
-.active-card:hover {
+.card:hover {
   background-color: #007bff !important;
-  
-}
-
-.btn-card {
-  transition: all 0.3s;
-}
-.btn-card:hover {
-  background-color: #007bff !important;
-  transform: scale(1.2); /
-}
-.btn-card:focus {
-  background-color: #007bff !important;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); 
+  transform: scale(1.05); 
 }

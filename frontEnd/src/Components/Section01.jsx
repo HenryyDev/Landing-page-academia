@@ -25,7 +25,7 @@ export default function Section01() {
             nossos profissionais capacitados para alcançar seus objetivos!
           </p>
           <div>
-            <button className="btn btn-primary">Matricule-se</button>
+            <button className="btn btn-primary mb-5">Matricule-se</button>
           </div>
         </div>
 
