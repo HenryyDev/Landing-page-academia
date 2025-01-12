@@ -6,7 +6,7 @@ export default function Section01() {
     <>
       <div className="d-flex container justify-content-center flex-column flex-md-row">
         <div
-          className="esquerda col-12 col-md-6 d-flex flex-column justify-content-center"
+          className="esquerda-section01 col-12 col-md-6 d-flex flex-column justify-content-center"
           style={{ marginRight: "60px" }}
         >
           <h1
