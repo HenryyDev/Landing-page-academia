@@ -4,31 +4,36 @@
 
   gap: 16px;
 }
-
+:root {
+  --cor-card: rgb(13, 13, 13);
+}
 .esquerda-section03 {
   position: relative;
   width: 50%;
   height: 400px;
-  background-color: rgb(13, 13, 13);
+  background-color: var(--cor-card);
   border-radius: 20px;
 }
 
 .img-foto01 {
+  border-radius: 25px;
   width: 400px;
   position: absolute;
-  top: 0;
+  top: -20px;
   left: 30px;
 }
 
 .img-foto02 {
+  border-radius: 25px;
   width: 300px;
   position: absolute;
-  top: 250px;
+  top: 270px;
   left: 100px;
   z-index: 1;
 }
 
 .img-foto03 {
+  border-radius: 25px;
   width: 300px;
   position: absolute;
   top: 150px;
@@ -62,8 +67,19 @@
 .container-section03 img {
   margin-right: 8px;
 }
-
-@media (max-width: 768px) {
+.container-card-section03 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  height: auto;
+  padding: 20px;
+  border-radius: 20px;
+  z-index: 999;
+  background-color: var(--cor-card);
+  color: white;
+}
+@media (max-width: 769px) {
   .container-section03 {
     flex-direction: column;
     align-items: center;
@@ -98,8 +114,64 @@
     margin-bottom: 10px;
   }
 }
-@media (min-width: 769px) and (max-width: 1200px) {
-  .esquerda-section03 {
-    overflow: hidden;
+@media (min-width: 540px) and (max-width: 769px) {
+  .img-foto01 {
+    width: 300px;
+    position: absolute;
+    top: -20px;
+    left: -10px;
+  }
+  .img-foto02 {
+    width: 200px;
+    position: absolute;
+    top: 200px;
+    left: 40px;
+    z-index: 1;
+  }
+  .img-foto03 {
+    width: 300px;
+    top: 110px;
+    left: 230px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+  .img-foto01 {
+    width: 300px;
+    position: absolute;
+    top: -20px;
+    left: -10px;
+  }
+  .img-foto02 {
+    width: 200px;
+    position: absolute;
+    top: 230px;
+    left: 0px;
+    z-index: 1;
+  }
+  .img-foto03 {
+    width: 200px;
+    top: 120px;
+    left: 150px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  .img-foto01 {
+    width: 300px;
+    position: absolute;
+    top: -20px;
+    left: -10px;
+  }
+  .img-foto02 {
+    width: 300px;
+    position: absolute;
+    top: 200px;
+    left: 40px;
+    z-index: 1;
+  }
+  .img-foto03 {
+    width: 200px;
+    top: 120px;
+    left: 260px;
   }
 }
