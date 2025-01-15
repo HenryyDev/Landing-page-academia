@@ -14,7 +14,7 @@ export default function Navbar() {
         />
         <h1 className="d-flex align-items-center justify-content-center">
           <span className="ms-3" style={{ color: "white", fontWeight: "bold" }}>
-            Fit club gym
+            Sua academia
           </span>
         </h1>
       </div>
