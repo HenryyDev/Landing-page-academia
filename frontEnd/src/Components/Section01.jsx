@@ -20,7 +20,13 @@ export default function Section01() {
           >
             O suporte que você precisa para conquistar o seu melhor físico!
           </h1>
-          <p style={{ fontFamily: "Poppins, sans-serif", fontWeight: "400" }}>
+          <p
+            style={{
+              fontFamily: "Poppins, sans-serif",
+              fontWeight: "400",
+              color: "white",
+            }}
+          >
             Cuidamos do seu físico com a dedicação que você merece. Conte com
             nossos profissionais capacitados para alcançar seus objetivos!
           </p>
